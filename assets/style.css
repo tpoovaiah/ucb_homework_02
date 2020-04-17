@@ -28,7 +28,13 @@
 
 .footer {
     background-color: #666666;
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: solid #4aaaa5;
+    border-width: 5px;
 }
+
+.footerText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: white;
+}
+
