@@ -21,7 +21,6 @@
 }
 
 .navLink {
-    text-align: center;
     color: #777777;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -73,6 +72,12 @@ p {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    border: solid 1px #777777;
 }
 
 

@@ -7,24 +7,12 @@
     <link rel="stylesheet" href="assets/style.css">
     
 
-    <title>Contact</title>
+    <title>Portfolio</title>
 </head>
 <body class="background">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 p-2 bd-highlight logo">Tanya Poovaiah</div>
-            <div class="col-md-6"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-1"></div>
-        </div>
-    </div>
-
-
-
-
-    <!-- <div class="d-flex bd-highlight fixed-top navBar">
-        <div class="p-2 bd-highlight logo">Tanya Poovaiah</div>
+    <!-- This is the NavBar -->
+    <div class="d-flex bd-highlight fixed-top navBar">
+        <div class="p-3 bd-highlight logo">Tanya Poovaiah</div>
         <div class="p-2 bd-highlight flex-grow-1"></div>
         <div class="p-2 bd-highlight navLinkBox">
             <a href="index.html" class="navLink">About </a>
@@ -33,30 +21,42 @@
             <span class="navLink"> | </span>
             <a href="contact.html" class="navLink"> Contact</a>
         </div>
-      </div> -->
-      
-
-      <!-- <nav class="navbar fixed-top navBar">
-          <a class="navbar-brand logo" href="index.html">Tanya Poovaiah</a>
-          <div>
-              <a href="index.html">About</a>
-              |
-              <a href="portfolio.html">Portfolio</a>
-              |
-              <a href="contact.html">Contact</a>
-          </div>
-        </nav> -->
-
+    </div>
     
+    
+    
+    <div class="container contentBox">
+        <!-- This is the heading -->
+        <div class="row mb-4" style="border-bottom: solid #cccccc">
+            <h2 class="headings pt-4"><strong>Portfolio</strong></h2>
+        </div>
+        <!-- This is the content -->
+        <form>
+            <div class="form-group navLink">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Doe">
+            </div>
+
+            <div class="form-group navLink">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+            </div>
+            <div class="form-group navLink">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write message here"></textarea>
+            </div>
+        
 
 
+            <button type="submit" class="btn button">Submit</button>
+          </form>
+    </div>
         
-        
+    <!-- This is the footer     -->
     <nav class="navbar fixed-bottom justify-content-center footer">
         <span class="navbar-text footerText">
             Copyright (c) Tanya Poovaiah
-          </span>
-        <!-- <a class="navbar-text footer" href="#">Copyright (c) Tanya Poovaiah</a> -->
+        </span>
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
