@@ -10,12 +10,13 @@
     font-size: 30px;
     font-style: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 100px;
+    text-align: center;
+    margin-left: 10%;
 }
 
 .navLinkBox {
-    margin-right: 100px;
     margin-top: 20px;
+    margin-right: 10%;
 
 }
 
@@ -42,4 +43,25 @@
 .background {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
     /* sourced above url from "inspect" of the source page */
+}
+
+.contentBox {
+    background-color: #ffffff;
+    border: solid #dddddd;
+    border-width: 1px;
+    padding: 10px 80px 20px 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.headings {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 35px;
+    color: #777777;
 }
