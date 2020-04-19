@@ -1,9 +1,11 @@
+/* Styles the navbar */
 .navBar {
     background-color: #ffffff;
     border-bottom: solid #cccccc;
     border-width: 1.5px;
 }
 
+/* styles the TanyaPoovaiah logo */
 .logo {
     background-color: #4aaaa5;
     color:white;
@@ -15,24 +17,27 @@
     padding: 20px;
 }
 
+/* formats the box containing nav links */
 .navLinkBox {
     margin-top: 40px;
     margin-right: 10%;
 
 }
 
+/* styles the navlinks */
 .navLink {
     color: #777777;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+/* styles the footer */
 .footer {
     background-color: #666666;
     border-top: solid #4aaaa5;
     border-width: 5px;
 }
 
+/* styles the footer text */
 .footerText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
@@ -45,6 +50,7 @@
     /* sourced above url from "inspect" of the source page */
 }
 
+/* styles the content container */
 .contentBox {
     background-color: #ffffff;
     border: solid #dddddd;
@@ -57,11 +63,13 @@
 
 }
 
+/* styles page titles */
 .headings {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* styles text */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -69,6 +77,7 @@ p {
     color: #777777;
 }
 
+/* styles portfolio card text */
 .card-text {
     text-decoration: none;
     text-align: center;
@@ -78,27 +87,25 @@ p {
     font-size: 20px;
 }
 
+/* styles portfolio cards */
 .cardStyle {
     width: 14rem;
     float: left;
     margin: 20px;
 }
 
+/* styles the submit button */
 .button {
     background-color: #4aaaa5;
     color: white;
     border: solid 1px #777777;
 }
 
+/* locates the images */
 img {
     float: left;
 }
 
-
-
-@media screen and (max-width: 980px) {
-
-  }
 
 @media screen and (max-width: 768px) {
 
@@ -110,7 +117,8 @@ img {
 
 @media screen and (max-width: 640px) {
     .cardStyle {
-        width: 20rem;
+        width: 21rem;
+        height: fit-content;
     }
 
     img {
