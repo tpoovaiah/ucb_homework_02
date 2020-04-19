@@ -94,8 +94,15 @@ p {
 .cardStyle {
     width: auto;
 }
-
-.contentBox {
-   
-}
   }
+
+@media screen and (max-width: 768px) {
+    .cardStyle {
+        width: auto;
+    }
+
+    .contentBox {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
