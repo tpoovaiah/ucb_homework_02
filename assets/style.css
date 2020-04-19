@@ -97,15 +97,10 @@ img {
 
 
 @media screen and (max-width: 980px) {
-.cardStyle {
-    width: auto;
-}
+
   }
 
 @media screen and (max-width: 768px) {
-    .cardStyle {
-        width: auto;
-    }
 
     .contentBox {
         margin-left: auto;
@@ -115,13 +110,13 @@ img {
 
 @media screen and (max-width: 640px) {
     .cardStyle {
-        display: inline-block;
-        width: 15rem;
+        width: 20rem;
     }
 
     img {
+        width: 21rem;
         float: none;
-        display: block;
+        margin-bottom: 15px;
     }
 
     .flex-grow-1 {
